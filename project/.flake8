@@ -1,0 +1,8 @@
+[flake8]
+exclude = .git,__pycache__,docs/source/conf.py,old,build,dist,*/migrations/*
+inline-quotes = '
+max-line-length = 120
+select = E,F,W,C4,Q0, DJ, N80, ABS
+ignore = W504, DJ08, DJ01
+
+# DJ08 - Model does not define str method
